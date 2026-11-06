@@ -1,0 +1,12 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main(){
+    string x = "Sk Nobidul";
+    // getline(cin,x);
+    // cout<<x;
+    cout<<x.size()<<endl;
+    x[0]='P';
+    cout<<x;
+   
+}
